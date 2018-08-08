@@ -1,13 +1,8 @@
 {
-    "plugins": ["github-issue-feedback", "ghcomment", "github-edit", "disqus", "page-toc", "summary", "expandable-chapters", "-lunr", "-search", "search-plus", "puml"],
+    "plugins": ["gistrun", "outline", "mathjax-commonhtml", "github-issue-feedback", "ghcomment", "github-edit", "disqus", "summary", "expandable-chapters", "-lunr", "-search", "search-plus", "local-plantuml"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "stackflow"
-        },
-        "page-toc": {
-            "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4",
-            "position": "before-first",
-            "showByDefault": true
         },
         "expandable-chapters":{},
         "github-edit": {
@@ -20,6 +15,9 @@
         "ghcomment": {
             "owner": "stackflow-io",
             "repo": "stackflow"
-          }
+        },
+        "mathjax-commonhtml": {
+            "defaultScaling": false
+        }
     }
 }
