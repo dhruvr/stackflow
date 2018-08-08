@@ -1,4 +1,10 @@
 
+---
+created: 2018-08-09_16-30-16
+issue_id: 16
+title: How to lookup from and insert into a HashMap efficiently?
+---
+
 # How to lookup from and insert into a HashMap efficiently?
 
 ## Question
