@@ -1,5 +1,5 @@
 {
-    "plugins": ["disqus", "page-toc", "summary", "expandable-chapters", "-lunr", "-search", "search-plus", "puml"],
+    "plugins": ["github-issue-feedback", "ghcomment", "github-edit", "disqus", "page-toc", "summary", "expandable-chapters", "-lunr", "-search", "search-plus", "puml"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "stackflow"
@@ -9,6 +9,17 @@
             "position": "before-first",
             "showByDefault": true
         },
-        "expandable-chapters":{}
+        "expandable-chapters":{},
+        "github-edit": {
+            "repo": "stackflow-io/stackflow",
+            "branch": "master"
+        },
+        "github-issue-feedback": {
+            "repo": "stackflow-io/stackflow"
+        },
+        "ghcomment": {
+            "owner": "stackflow-io",
+            "repo": "stackflow"
+          }
     }
 }
