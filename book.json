@@ -16,8 +16,7 @@
         "exercises",
         "abc2svg",
         "youtubex",
-        "fbqx",
-        "mcqx",
+        "ga",
         "prism", "-highlight"
     ],
     "pluginsConfig": {
@@ -38,6 +37,9 @@
         },
         "mathjax-commonhtml": {
             "defaultScaling": false
+        },
+        "ga": {
+            "token": "UA-123645933-1"
         }
     }
 }
