@@ -1,5 +1,25 @@
 {
-    "plugins": ["gistrun", "outline", "mathjax-commonhtml", "github-issue-feedback", "ghcomment", "github-edit", "disqus", "summary", "expandable-chapters", "-lunr", "-search", "search-plus", "local-plantuml"],
+    "plugins": [
+        "gistrun", 
+        "outline", 
+        "mathjax-commonhtml", 
+        "github-issue-feedback", 
+        "ghcomment", 
+        "github-edit", 
+        "disqus", 
+        "summary", 
+        "expandable-chapters", 
+        "-lunr", 
+        "-search", 
+        "search-plus", 
+        "local-plantuml",
+        "exercises",
+        "abc2svg",
+        "youtubex",
+        "fbqx",
+        "mcqx",
+        "prism", "-highlight"
+    ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "stackflow"
